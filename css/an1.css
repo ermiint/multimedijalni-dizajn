@@ -42,3 +42,5 @@ background-color: green;
 display: inline-block;
 border: 1px solid black;
 box-sizing: border-box;
+animation: prva-animacija 3s alternate 2
+forwards;
