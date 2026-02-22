@@ -1,0 +1,45 @@
+@keyframes prikaz-inputa { /* Definisa� animaciju pod nazivom prikaz-inputa */
+0% {
+width: 0px; /* Širina elementa je 0 */
+height: 0px; /* Visina elementa je 0 */
+background-color: #fff; /* Bijela pozadina */
+border-radius: 20px; /* Zaobljeni uglovi 20px */
+}
+20% {
+width: 20px; /* Širina elementa 20px */
+height: 20px; /* Visina elementa je 20 */
+background-color: #f00; /* Crvena pozadina */
+border-radius: 20px; /* Zaobljeni uglovi 20px */
+}
+30% {
+width: 10px; /* Širina elementa 10px */
+height: 10px; /* Visina elementa je 10 */
+background-color: #fff; /* Bijela pozadina */
+border-radius: 10px; /* Zaobljeni uglovi 10px */
+}
+60% {
+width: 150px; /* Širina elementa 150px */
+height: 30px; /* Visina elementa je 30 */
+background-color: #fff; /* Bijela pozadina */
+border-radius: 0px; /* Zaobljeni uglovi 0px */
+}
+80% {
+width: 170px; /* Širina elementa 170px */
+height: 30px; /* Visina elementa je 30 */
+background-color: #fff; /* Bez promjene boje */
+border-radius: 10px; /* Zaobljeni uglovi 10px */
+}
+100% {
+width: 220px; /* Konačna širina input polja 220px */
+height: 30px; /* Konačna visina 30px*/
+background-color: #fff; /* Bijela pozadina */
+border-radius: 10px; /* Zaobljeni uglovi 10px */
+}
+}
+.animirani-input { /* CSS klasa za animirani-input element */
+display: block; /* Element se ponaša kao blok (zauzima cijelu širinu) */
+box-sizing: border-box; /* Padding i border se uračunavaju u ukupnu širinu/visinu */
+padding: 5px; /* Unutrašnji razmak od 5px sa svih strana */
+margin-botom: 5px; /* Razmak od 5px ispod elementa */
+border: 1px solid red; /* Crvena ivica debljine 1px */
+anima�on: prikaz-inputa 2s forwards; /* Pokreće animaciju prikaz-inputa u trajanju od 2s i zadržava krajnje stanje */
