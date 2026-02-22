@@ -1,4 +1,4 @@
-@keyframes prikaz-inputa { /* Definisa� animaciju pod nazivom prikaz-inputa */
+@keyframes prikaz-inputa { /* Definisati animaciju pod nazivom prikaz-inputa */
 0% {
 width: 0px; /* Širina elementa je 0 */
 height: 0px; /* Visina elementa je 0 */
@@ -42,4 +42,4 @@ box-sizing: border-box; /* Padding i border se uračunavaju u ukupnu širinu/vis
 padding: 5px; /* Unutrašnji razmak od 5px sa svih strana */
 margin-botom: 5px; /* Razmak od 5px ispod elementa */
 border: 1px solid red; /* Crvena ivica debljine 1px */
-anima�on: prikaz-inputa 2s forwards; /* Pokreće animaciju prikaz-inputa u trajanju od 2s i zadržava krajnje stanje */
+animation: prikaz-inputa 2s forwards; /* Pokreće animaciju prikaz-inputa u trajanju od 2s i zadržava krajnje stanje */
